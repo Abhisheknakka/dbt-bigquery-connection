@@ -35,13 +35,15 @@ Ensure the following:
 ### 1. **Create a New DBT Project**:
    - Once logged into **DBT Cloud**, create a new project by clicking **Create New Project**.
    - Choose **BigQuery** as the database.
-   
+   ![image](https://github.com/user-attachments/assets/399105b0-a303-427c-acda-18971562ac0e)
+
 ### 2. **Set Up the BigQuery Connection**:
    - In the DBT Cloud project setup, enter the following details:
      - **Project ID**: Your Google Cloud project ID (found in Google Cloud Console).
      - **Dataset**: The dataset in BigQuery you will use.
      - **Key File**: Upload the **service account JSON key**.
-   
+   ![image](https://github.com/user-attachments/assets/9431874b-527e-4229-a536-e05038bc913d)
+
    Example configuration:
    - **Project ID**: `your-gcp-project-id`
    - **Dataset**: `your_dataset_name`
