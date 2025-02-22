@@ -1,5 +1,6 @@
 # Connect BigQuery with DBT via Google Cloud
 
+Checkout the branches to view the files, 
 This README provides step-by-step instructions to connect **BigQuery** with **DBT** using your **Google Cloud** account. No need to install the Google Cloud SDK — we'll use the cloud-based approach.
 
 ## Prerequisites
@@ -38,6 +39,10 @@ Ensure the following:
    ![image](https://github.com/user-attachments/assets/399105b0-a303-427c-acda-18971562ac0e)
 
 ### 2. **Set Up the BigQuery Connection**:
+
+
+![image](https://github.com/user-attachments/assets/9d78ed49-caa8-46a6-a561-4f7272a95f74)
+
    - In the DBT Cloud project setup, enter the following details:
      - **Project ID**: Your Google Cloud project ID (found in Google Cloud Console).
      - **Dataset**: The dataset in BigQuery you will use.
